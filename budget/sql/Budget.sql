@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS Budget;
+
+CREATE TABLE Budget (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    remaining FLOAT NOT NULL
+);
